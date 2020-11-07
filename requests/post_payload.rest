@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/nedbetalingsplan
+Content-Type: application/json
+
+{
+  "laanebelop": 2000000,
+  "nominellRente": 3,
+  "terminGebyr":30,
+  "varighet": 25
+}
