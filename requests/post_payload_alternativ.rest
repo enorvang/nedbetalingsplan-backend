@@ -2,9 +2,9 @@ POST http://localhost:3001/api/nedbetalingsplanFraTil
 Content-Type: application/json
 
 {
-  "laanebelop": 2000000,
+  "laanebelop": 3500000,
   "nominellRente": 3,
   "terminGebyr":30,
-  "utlopsDato":"2045-01-01",
+  "utlopsDato":"2050-01-01",
   "saldoDato":"2020-01-01"
 }

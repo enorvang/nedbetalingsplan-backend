@@ -1,5 +1,5 @@
 import express from "express";
-import nedbetalingsKalkulator from "./nedbetalingsKalkulator";
+import nedbetalingsKalkulator from "./js/nedbetalingsKalkulator";
 
 const app = express();
 
