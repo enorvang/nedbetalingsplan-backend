@@ -1,1 +1,1 @@
-# Lånekalkulator for beregning av nedbetalingsplan for et lån.
+#  API for beregning av nedbetalingsplan for et lån.
