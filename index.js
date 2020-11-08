@@ -6,8 +6,10 @@ import cors from "cors";
 
 const app = express();
 
+app.use(express.static('build'))
 app.use(cors());
 app.use(express.json());
+
 
 const requestLogger = (request, response, next) => {
   console.log(`Method: ${request.method}`);
