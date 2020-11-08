@@ -88,7 +88,6 @@ const opprettNedbetalingsplanFraTil = (laanebelop, nominellRente, terminGebyr, s
     restgjeld = beregnLaanebelopEtterNInnbetalinger(laanebelop, i, maanedligRente, maanedligInnbetaling)
     renter = restgjeld * maanedligRente;
     
-
     innbetaling = {
       "restgjeld": restgjeld,
       "dato": nesteDato.toISOString().substring(0, 10),
